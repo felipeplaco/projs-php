@@ -1,0 +1,16 @@
+<?php
+// Definindo as variáveis
+$nome = "Felipe";
+$sobrenome = "Placo";
+$idade = 25;
+$profissao = "Desenvolvedor";
+
+// Concatenando o nome completo
+$nomeCompleto = $nome . " " . $sobrenome;
+
+// Criando a mensagem com HTML para formatação
+$mensagem = "Olá, meu nome é <b>$nomeCompleto</b> e tenho $idade anos.<br>Minha profissão é <i>$profissao</i>.";
+
+// Exibindo a mensagem
+echo $mensagem;
+?>""
