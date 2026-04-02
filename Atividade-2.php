@@ -1,5 +1,4 @@
-
-<?
+<?php
 
 $cidade = "Bauru";
 $dia = "01";
